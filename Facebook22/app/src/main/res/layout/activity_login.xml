@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+        android:hint="Search"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:id="@+id/im1"
+        android:src="@drawable/fbpic"
+        android:layout_toLeftOf="@id/ed1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="Hoang Viet"
+        android:layout_below="@id/ed1"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed2"
+        android:hint="What 's on your mind ?"
+        android:layout_below="@id/t1"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_toLeftOf="@id/ed2"
+        android:layout_below="@id/t1"
+        android:src="@drawable/avt" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Live"
+        android:layout_below="@id/ed2"
+        android:layout_alignLeft="@id/im2" />
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Photo"
+        android:layout_toRightOf="@id/b1"
+        android:layout_below="@id/ed2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check in"
+        android:layout_below="@id/ed2"
+        android:layout_toRightOf="@id/b2" />
+</RelativeLayout>
