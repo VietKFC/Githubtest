@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Facebook </string>
+    <string name="acc">Account or phone number</string>
+    <string name="pass">Password</string>
+    <string name="button">Login</string>
+    <string name="button2">Forget password ?</string>
+</resources>
